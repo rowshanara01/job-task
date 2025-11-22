@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellty - Frontend Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">ellty</div>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link active" data-page="home">Home</a>
+                <a href="#templates" class="nav-link" data-page="templates">Templates</a>
+                <a href="#explore" class="nav-link" data-page="explore">Explore</a>
+                <a href="#pricing" class="nav-link" data-page="pricing">Pricing</a>
+            </div>
+            
+            <div class="nav-actions">
+                <div class="search-container">
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <button class="search-btn">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M14 14L11.1 11.1M12.6667 7.33333C12.6667 10.2789 10.2789 12.6667 7.33333 12.6667C4.38781 12.6667 2 10.2789 2 7.33333C2 4.38781 4.38781 2 7.33333 2C10.2789 2 12.6667 4.38781 12.6667 7.33333Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                
+                <div class="auth-buttons">
+                    <button class="login-btn">Log in</button>
+                    <button class="signup-btn">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Home Section -->
+        <section id="home" class="page active">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1>Create designs that stand out</h1>
+                    <p>No design skills needed. Create beautiful designs with Ellty's easy-to-use editor.</p>
+                    <button class="cta-button">Get Started Free</button>
+                </div>
+                <div class="hero-image">
+                    <div class="placeholder-image">Hero Image</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Templates Section -->
+        <section id="templates" class="page">
+            <div class="section-content">
+                <h2>Templates</h2>
+                <p>Choose from hundreds of professionally designed templates.</p>
+            </div>
+        </section>
+
+        <!-- Explore Section -->
+        <section id="explore" class="page">
+            <div class="section-content">
+                <h2>Explore</h2>
+                <p>Discover amazing designs created by our community.</p>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="page">
+            <div class="section-content">
+                <h2>Pricing</h2>
+                <p>Choose the plan that works best for you.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
